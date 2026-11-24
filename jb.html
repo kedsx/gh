@@ -1,0 +1,25 @@
+<!doctype html>
+<html class="run" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Keds Webhost</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="log">
+    <!-- Reached by navigation from index.html; the bundle's referrer guard
+         arms the chain only on that transition. Elements below are the
+         bundle's contract (#state and #out are read by name) -- kept minimal
+         so the page is just the log while a run is in flight. -->
+    <div id="brand"><b>Keds Webhost</b></div>
+    <div id="wrap">
+      <div id="state"></div>
+      <div id="out"></div>
+    </div>
+    <p class="byline">by Keds (@jqzs.)</p>
+    <p class="credits">credits: SiSTRo &middot; raw13 &middot; well0nez</p>
+    <script type="module">
+      import "./jb.js";
+    </script>
+  </body>
+</html>
